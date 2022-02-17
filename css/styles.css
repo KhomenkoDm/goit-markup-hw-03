@@ -1,0 +1,237 @@
+/* main colours
+main text colour #757575
+black text colour #212121
+White text colour #FFFFFF
+blue text colour #2196F3
+main background colour #E5E5E5
+grey background colour #F5F4FA
+dark grey background colour #2F303A
+*/
+
+:root {
+  --main-text: #757575;
+  --black-text: #212121;
+  --white-text: #ffffff;
+  --blue-main: #2196f3;
+  --main-background: #e5e5e5;
+  --grey-background: #f5f4fa;
+  --dark-grey-background: #2f303a;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+/* header */
+
+.header .logo {
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--black-text);
+}
+
+.logo .logo-web {
+  color: var(--blue-main);
+}
+
+.nav-list .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--black-text);
+}
+
+.nav-list .link:hover,
+.nav-list .link:focus,
+.nav-contacts .link:hover,
+.nav-contacts .link:focus {
+  color: var(---blue-main);
+}
+
+.nav-contacts .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-text);
+}
+
+.nav a.header-active-page {
+  color: var(--blue-main);
+}
+
+/* hero */
+.hero {
+  background-color: var(--dark-grey-background);
+  text-align: center;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-text);
+}
+
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: var(--blue-main);
+}
+
+/* about */
+
+.about,
+.works {
+  background-color: var(--main-background);
+}
+
+.about h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--black-text);
+}
+
+.about p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--main-text);
+}
+
+/* works */
+
+.works h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--black-text);
+}
+
+/* team */
+
+.team {
+  background-color: var(--grey-background);
+}
+
+.team .team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--black-text);
+}
+
+.team .team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--black-text);
+}
+
+.team .team-job {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text);
+}
+
+/* portfolio */
+
+.portfolio {
+  background-color: var(--main-background);
+}
+
+.portfolio .portfolio-button {
+  font-family: roboto, sans-sherif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--black-text);
+  background-color: var(--grey-background);
+}
+
+.portfolio .portfolio-button:hover,
+.portfolio .portfolio-button:focus {
+  background-color: var(--blue-main);
+  color: var(--white-text);
+}
+
+.portfolio-card .portfolio-card-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--black-text);
+}
+
+.portfolio-card .portfolio-card-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--main-text);
+}
+
+/* footer */
+
+.footer {
+  background-color: var(--dark-grey-background);
+}
+
+.footer .logo {
+  color: var(--white-text);
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.footer .footer-list {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--white-text);
+}
+
+.footer address {
+  font-style: unset;
+}
+
+.footer .footer-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
